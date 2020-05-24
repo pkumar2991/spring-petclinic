@@ -1,0 +1,10 @@
+pipline{
+	agent any
+	stages{
+		stage('Hello from GitHub'){
+			steps{
+				echo "Hello World!"
+			}
+		}
+	}
+}
